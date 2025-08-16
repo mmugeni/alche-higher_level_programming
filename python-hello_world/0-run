@@ -1,2 +1,2 @@
-#!/usr/bin/python
-print ("Best School")
+#!/bin/bash
+echo "Best School"

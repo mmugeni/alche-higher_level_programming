@@ -1,10 +1,8 @@
-# 8-uppercase.py
-
+#!/usr/bin/python3
 def uppercase(str):
-    result = ""
+    """Print a string in uppercase followed by a new line."""
     for c in str:
         if ord('a') <= ord(c) <= ord('z'):
-            result += chr(ord(c) - 32)  # convert lowercase to uppercase
-        else:
-            result += c
-    print("{}".format(result))
+            c = chr(ord(c) - 32)
+        print("{}".format(c), end="")
+    print()
